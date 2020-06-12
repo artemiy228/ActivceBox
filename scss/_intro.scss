@@ -1,0 +1,50 @@
+.intro {
+	padding-top: 100px;
+	min-height: 750px;
+	text-align: center;
+	background: url('../img/Intro-bg.jpg') center center / cover no-repeat;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	&__inner {
+		margin: 0 auto;
+		max-width: 840px;
+	}
+
+	&__title {
+		text-transform: uppercase;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 900;
+		font-size: 60px;
+		color: #fff;
+
+	}
+
+	&__text {
+		font-family: 'Open Sans', sans-serif;
+		color: #fff;
+		font-weight: 400;
+		font-size: 22px;
+		margin-top: 40px;
+	}
+
+	&__btn {
+		margin-top: 100px;
+
+		.btn {
+			padding: 20px 55px;
+			color: #fff;
+			text-transform: uppercase;
+			background-color: #e84545;
+			text-decoration: none;
+			border-radius: 3px;
+
+			&:hover {
+				border: 1px solid #e84545;
+				background-color: rgba(0, 0, 0, 0);
+			}
+		}
+	}
+
+}

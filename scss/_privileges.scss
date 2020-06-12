@@ -1,0 +1,37 @@
+.privileges {
+	min-height: 750px;
+
+	&__inner {
+		padding-top: 45px;
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	&__block {
+		margin-top: 65px;
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		max-width: 330px;
+		margin-right: 90px;
+
+		&:nth-child(3),
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+
+	&__title {
+		margin-top: 30px;
+		font-size: 14px;
+		font-weight: 700;
+		color: #000;
+	}
+
+	&__text {
+		margin-top: 20px;
+		font-weight: 400;
+		font-size: 14px;
+		color: #000;
+	}
+}

@@ -1,0 +1,36 @@
+.header {
+	width: 100%;
+	padding-top: 40px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+
+	&__inner {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding-bottom: 40px;
+		border-bottom: 1px solid #505369;
+	}
+
+
+	.nav {
+		&__link {
+			text-transform: uppercase;
+			text-decoration: none;
+			color: #fff;
+			font-weight: 700;
+			font-size: 13px;
+			margin-right: 55px;
+
+			&:hover {
+				text-decoration: underline;
+			}
+
+			&:last-child {
+				margin-right: 0;
+			}
+		}
+	}
+}

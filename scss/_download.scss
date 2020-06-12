@@ -1,0 +1,36 @@
+.download {
+	min-height: 340px;
+	padding: 100px 270px;
+	text-align: center;
+
+	&__title {
+		font-size: 28px;
+		font-weight: 300;
+	}
+
+	&__subtitle {
+		font-size: 13px;
+		font-weight: 700;
+		margin-top: 20px;
+		text-transform: uppercase;
+	}
+
+	&__btn {
+		margin-top: 50px;
+
+		.btn {
+			padding: 20px 55px;
+			color: #fff;
+			text-transform: uppercase;
+			background-color: #e84545;
+			text-decoration: none;
+			border-radius: 3px;
+
+			&:hover {
+				border: 1px solid #e84545;
+				background-color: rgba(0, 0, 0, 0);
+				color: #000;
+			}
+		}
+	}
+}
